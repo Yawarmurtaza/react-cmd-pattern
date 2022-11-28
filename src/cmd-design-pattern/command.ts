@@ -36,6 +36,8 @@ export class CommandManager{
             this.commands[c.name] = c;
             this.commandNames.push(c.name);
         });
+
+        console.log(this.commands);
     }
 
     executeCommand(command: string | ICommand, ...args: any){

@@ -1,12 +1,15 @@
 
-import { Run_v2 } from "./cmd-design-pattern/Runner"
+import { Run_v2, UnderstandDictionary } from "./cmd-design-pattern/Runner"
 import './App.css';
+import LearningTypescript_Runner from "./Types/learningTypes-runner";
 
 function App() {
-  Run_v2();
+  
   return (
     <div className="App">
-      
+      <div>
+        <LearningTypescript_Runner/>
+      </div>
     </div>
   );
 }
